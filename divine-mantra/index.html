@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
 <html lang="en" class="fonts-loaded">
 <!--#else -->
@@ -21,6 +21,20 @@
   		margin:0 auto;
   		color:#222;
     }
+
+    h2 { line-height: 2.369em; }
+    h3 {
+      font-family: 'Cormorant SC', 'Times New Roman', serif;
+      font-size: 1.2em;
+      font-weight: 400;
+      line-height: 1.777em;
+      text-transform: lowercase;
+    }
+    h4 { line-height: 1em; }
+    h5 { line-height: 0.75em; }
+    h6 { line-height: 0.563em; }
+    /* Smaller potential line heights: 0.75em, 0.563em, 0.422em */
+
     header {
       background: #444;
       color: #ddd;
@@ -30,17 +44,11 @@
     }
     header h1 {
       font-size: 10vw;
-      margin: 20vh 0 0;
+      line-height: 1.333;
+      margin-top: 20vh;
     }
     header a:link, a:visited, a:active, a:hover { color: inherit; text-decoration: none; }
     header a:hover { color: #fff; }
-
-    h3 {
-      font-family: 'Cormorant SC', 'Times New Roman', serif;
-      font-size: 1.2em;
-      font-weight: 400;
-      text-transform: lowercase;
-    }
 
     main {
         margin: inherit;
@@ -59,7 +67,10 @@
 
     .section-break {text-align: center;}
 
-    .smallcaps, .instruction { font-family: 'Cormorant SC', 'Times New Roman', serif; text-transform: lowercase; }
+    .smallcaps, .instruction {
+      font-family: 'Cormorant SC', 'Times New Roman', serif;
+      text-transform: lowercase;
+    }
     .explanation { font-style: italic; }
 
     .hidden { display: none; }
@@ -129,7 +140,7 @@
 
     </section>
 
-    <section id="part1-homage">
+    <section id="homage">
       <h2>
         Part I: Homage
       </h2>
@@ -183,7 +194,7 @@
       </div>
     </section>
 
-    <section id="part2-chanting">
+    <section id="chanting">
 
       <h2>Part II: Chanting</h2>
 
@@ -442,7 +453,7 @@
       </div>
     </section>
 
-    <section id="part3-meditation">
+    <section id="meditation">
 
       <h2>Part III: Meditation</h2>
 
